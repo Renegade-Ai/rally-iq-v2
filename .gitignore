@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+.env
+
+# Media and model weights stay out of git (see data/manifest.json)
+data/
+*.mp4
+*.mov
+*.pt
+*.pth
+*.onnx
+*.task
+*.tflite
